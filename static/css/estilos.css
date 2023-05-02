@@ -34,6 +34,24 @@ body {
     flex-basis: 100px;
 }
 
+.flex-institucional {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Para centrar verticalmente */
+    padding: 50px;
+
+ 
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Para centrar verticalmente */
+  }
+  
+
 .footer {
     
     background: #f1e5d2;
