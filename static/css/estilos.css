@@ -34,6 +34,17 @@ body {
     flex-basis: 100px;
 }
 
+.flex-institucional {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    background: #f1e5d2;
+    color: rgba(14, 12, 12, 0.9);
+    height: auto;
+    
+}
+
 .footer {
     
     background: #f1e5d2;
