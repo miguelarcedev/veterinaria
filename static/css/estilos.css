@@ -37,23 +37,6 @@ body {
 .flex-institucional {
     display: flex;
     justify-content: center;
-<<<<<<< HEAD
-    align-items: center;
-    height: 100vh; /* Para centrar verticalmente */
-    padding: 50px;
-
- 
-}
-
-.contenedor {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* Para centrar verticalmente */
-  }
-  
-
-=======
     flex-wrap: wrap;
     padding: 20px;
     background: #f1e5d2;
@@ -62,7 +45,6 @@ body {
     
 }
 
->>>>>>> 07f5d89c078402745dc121760d0fc34a4090a2d9
 .footer {
     
     background: #f1e5d2;
