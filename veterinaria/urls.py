@@ -17,9 +17,21 @@ from django.contrib import admin
 from django.urls import path
 from veterinaria import views
 
+from django_distill import distill_path
+
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index, name="index"),
     path('historia/', views.historia, name="historia"),
     path('institucional/', views.institucional, name="institucional"),
 ]
+
+""" urlpatterns = [
+    path('admin/', admin.site.urls),
+    distill_path('index.html', views.index, name="index"),
+    distill_path('historia.html', views.historia, name="historia"),
+    distill_path('institucional.html', views.institucional, name="institucional"),
+    
+] """
+
