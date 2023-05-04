@@ -23,4 +23,4 @@ def indicadores(request):
 
 def staff(request):
    
-    return render(request, "staff.html")
+    return render(request, "staff_grid.html")

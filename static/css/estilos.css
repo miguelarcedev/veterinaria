@@ -62,6 +62,13 @@ body {
    
 }
 
+.grid-staff {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    background-color:#f1e5d2;
+    padding: 10px;
+  }
+
 .grid-container {
     display: grid;
     grid-template-columns: auto auto;
@@ -274,6 +281,12 @@ p {
         font-size: 0.75rem;
         letter-spacing: 0.175rem;
     }
+    .grid-staff {
+        display: grid;
+        grid-template-columns: auto auto;
+        background-color:#f1e5d2;
+        padding: 10px;
+      }
     
 }
 
@@ -293,6 +306,7 @@ p {
     .picture-index {
         width: 350px;
         border-radius: 4px;
+    }
     .nombre {
           margin-top: auto;
           font-size: 1.25rem;         
@@ -300,5 +314,11 @@ p {
     .profesion {
           font-size: 0.75rem;          
     }
+    .grid-staff {
+        display: grid;
+        grid-template-columns: auto auto;
+        background-color:#f1e5d2;
+        padding: 10px;
+      }
     
 }

@@ -62,6 +62,13 @@ body {
    
 }
 
+.grid-staff {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    background-color:#f1e5d2;
+    padding: 10px;
+  }
+
 .grid-container {
     display: grid;
     grid-template-columns: auto auto;
