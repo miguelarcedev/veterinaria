@@ -12,3 +12,7 @@ def historia(request):
 def institucional(request):
    
     return render(request, "institucional.html")
+
+def foda(request):
+   
+    return render(request, "foda.html")

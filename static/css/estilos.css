@@ -53,6 +53,20 @@ body {
    
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color:#f1e5d2;
+    padding: 10px;
+  }
+  .grid-item {
+    background-color:#f1e5d2;
+    border: 5px solid rgba(255, 255, 255, 255);
+    padding: 10px;
+    font-size: 15px;
+    text-align:left;
+  }
+
 .picture {
     width: 100%;
   }

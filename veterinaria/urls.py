@@ -20,18 +20,20 @@ from veterinaria import views
 from django_distill import distill_path
 
 
-""" urlpatterns = [
+urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index, name="index"),
     path('historia/', views.historia, name="historia"),
     path('institucional/', views.institucional, name="institucional"),
-] """
+    path('foda/', views.foda, name="foda"),
+]
 
-urlpatterns = [
+""" urlpatterns = [
     path('admin/', admin.site.urls),
     distill_path('index.html', views.index, name="index"),
     distill_path('historia.html', views.historia, name="historia"),
     distill_path('institucional.html', views.institucional, name="institucional"),
+    distill_path('foda.html', views.foda, name="foda"),
     
-] 
+]  """
 
