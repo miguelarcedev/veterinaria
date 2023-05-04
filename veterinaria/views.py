@@ -5,14 +5,22 @@ def index(request):
    
     return render(request, "index.html")
 
-def historia(request):
+def identidad(request):
    
-    return render(request, "historia.html")
+    return render(request, "identidad.html")
 
-def institucional(request):
+def filosofia(request):
    
-    return render(request, "institucional.html")
+    return render(request, "filosofia.html")
 
 def foda(request):
    
     return render(request, "foda.html")
+
+def indicadores(request):
+   
+    return render(request, "indicadores.html")
+
+def staff(request):
+   
+    return render(request, "staff.html")

@@ -23,16 +23,18 @@ from django_distill import distill_path
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index, name="index"),
-    path('historia/', views.historia, name="historia"),
-    path('institucional/', views.institucional, name="institucional"),
+    path('identidad/', views.identidad, name="identidad"),
+    path('filosofia/', views.filosofia, name="filosofia"),
     path('foda/', views.foda, name="foda"),
+    path('indicadores/', views.indicadores, name="indicadores"),
+    path('staff/', views.staff, name="staff"),
 ]
 
 """ urlpatterns = [
     path('admin/', admin.site.urls),
     distill_path('index.html', views.index, name="index"),
-    distill_path('historia.html', views.historia, name="historia"),
-    distill_path('institucional.html', views.institucional, name="institucional"),
+    distill_path('identidad.html', views.identidad, name="identidad"),
+    distill_path('filosofia.html', views.filosofia, name="filosofia"),
     distill_path('foda.html', views.foda, name="foda"),
     
 ]  """
