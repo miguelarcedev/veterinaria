@@ -62,6 +62,28 @@ body {
    
 }
 
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+.grid-indicador {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .grid-item {
+    background-color:#f1e5d2;
+    border: 5px solid rgba(255, 255, 255, 255);
+    padding: 10px;
+    font-size: 15px;
+    text-align:left;
+  }
+
+
 .grid-staff {
     display: grid;
     grid-template-columns: auto auto auto auto auto;
@@ -90,6 +112,10 @@ body {
 
 
   .picture-index {
+    width: 100%;
+  }
+
+  .picture-staff {
     width: 100%;
   }
 
@@ -208,6 +234,7 @@ p {
     font-size: 1.25rem;
     position: relative;
     color: #59578E;
+    
   }
 
 .section-title:after {
@@ -271,6 +298,10 @@ p {
         width: 350px;
         border-radius: 4px;
       }
+      .picture-staff {
+        width: 50%;
+      }
+    
     .nombre {
         margin-top: auto;
         font-size: 1.25rem;
@@ -281,6 +312,12 @@ p {
         font-size: 0.75rem;
         letter-spacing: 0.175rem;
     }
+    .grid-staff {
+        display: grid;
+        grid-template-columns: auto auto;
+        background-color:#f1e5d2;
+        padding: 10px;
+      }
     
 }
 
@@ -297,9 +334,14 @@ p {
         width: 200px;
         border-radius: 4px;
     }
+    .picture-staff {
+        width: 50%;
+      }
+    
     .picture-index {
         width: 350px;
         border-radius: 4px;
+    }
     .nombre {
           margin-top: auto;
           font-size: 1.25rem;         
@@ -307,5 +349,11 @@ p {
     .profesion {
           font-size: 0.75rem;          
     }
+    .grid-staff {
+        display: grid;
+        grid-template-columns: auto auto;
+        background-color:#f1e5d2;
+        padding: 10px;
+      }
     
 }
