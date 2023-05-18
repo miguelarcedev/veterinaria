@@ -28,7 +28,7 @@ urlpatterns = [
     path('foda/', views.foda, name="foda"),
     path('indicadores/', views.indicadores, name="indicadores"),
     path('staff/', views.staff, name="staff"),
-] 
+]  
 
 """ urlpatterns = [
     path('admin/', admin.site.urls),
@@ -39,5 +39,5 @@ urlpatterns = [
     distill_path('indicadores.html', views.indicadores, name="indicadores"),
     distill_path('staff.html', views.staff, name="staff"),
     
-]
- """
+] """
+ 
