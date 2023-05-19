@@ -4,16 +4,14 @@
 
 {% block contenido %}
 
-<div class="p-5">
-	<section class="mb-5">
-		<h5 class="text-uppercase">Indicadores</h5>
-
-	</section>
-
-	<p>Datos de atención de mascotas de nuestra veterinaria en los últimos 5 años.</p>
-	<div class="flex-institucional">
+<div class="div-background p-5">
 	
-		<table style="width:100%">
+	<h5 class="text-uppercase">Indicadores</h5>
+
+	<h6>Datos de atención de mascotas de nuestra veterinaria en los últimos 5 años.</h6>
+	<div class="flex-container">
+	
+		<table style="width:60%">
 		  <tr>
 			<th>Año</th>
 			<th>2018</th>
@@ -48,27 +46,22 @@
 		  </tr>
 		</table>
 				
-		
-
+	</div>
+	<div class="p-5">
+		<div class="flex-container">
+		<div>
+			<img class="picture" src="{% static 'imagenes/indicador-competitividad.jpg' %}" alt="">
+		</div>
 	</div>
 	
-	
-
-</div>
-<div class="p-5">
-	<div class="flex-institucional">
-	<div>
-		<img class="picture" src="{% static 'imagenes/indicador-competitividad.jpg' %}" alt="">
-	</div>
-</div>
-
 </div>
 
 
-<div class="p-5">
 
-	<p>Indicador de satisfacción de los Clientes</p>
-	<div class="flex-institucional">
+<div class="div-background p-5">
+
+	<h6>Indicador de satisfacción de los Clientes</h6>
+	<div class="flex-container">
 	
 		<div>
 			<img class="picture" src="{% static 'imagenes/indicador-satisfaccion.png' %}" alt="">
@@ -77,17 +70,15 @@
 
 	</div>
 	
-	
-
 </div>
-<div class="p-5">
-	<div class="flex-institucional">
+
+<div class="div-background p-5">
+	<div class="flex-container">
 	<div>
 		<img class="picture" src="{% static 'imagenes/grafica-satisfaccion.png' %}" alt="">
 	</div>
 </div>
 
-</div>
 
 
 {% endblock %}

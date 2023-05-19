@@ -1,0 +1,157 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block contenido %}
+
+<div class="div-background p-5">
+	<h5>¿Por qué elegir nuestro servicio médico veterinario en Perro Feliz?</h5>
+	<div class="flex-container">
+		<div class="row">
+
+			<div class="col-sm">
+				<div class="card" style="width: 15rem;">
+					<img src="{% static 'imagenes/servicio-veterinario.jpg' %}" class="card-img-top" alt="...">
+					<div class="card-body">
+
+						<p class="card-text">Compromiso con el bienestar animal: Nuestro equipo está dedicado a
+							proporcionar un cuidado compasivo y centrado en el bienestar de tus mascotas. Nos
+							preocupamos profundamente por su salud y trabajamos arduamente para brindarles la atención
+							que se merecen.</p>
+
+					</div>
+
+				</div>
+			</div>
+
+			<div class="col-sm">
+				<div class="card" style="width: 15rem;">
+					<img src="{% static 'imagenes/profesional.jpeg' %}" class="card-img-top" alt="...">
+					<div class="card-body">
+
+						<p class="card-text">Profesionales altamente capacitados: Contamos con veterinarios y personal
+							médico veterinario experimentado y con amplios conocimientos en diversas áreas de la
+							medicina veterinaria. Puedes confiar en su experiencia y dedicación para el cuidado de tus
+							mascotas.
+						</p>
+
+					</div>
+
+				</div>
+			</div>
+			<div class="col-sm">
+				<div class="card" style="width: 15rem;">
+					<img src="{% static 'imagenes/personalizado.jpeg' %}" class="card-img-top" alt="...">
+					<div class="card-body">
+
+						<p class="card-text">Enfoque personalizado: Cada mascota es única, por lo que nos aseguramos de
+							brindar un enfoque personalizado en cada consulta y tratamiento. Escuchamos tus
+							preocupaciones y nos adaptamos a las necesidades individuales de tu mascota para brindarles
+							la mejor atención posible.
+						</p>
+
+					</div>
+
+				</div>
+			</div>
+			<div class="col-sm">
+				<div class="card" style="width: 15rem;">
+					<img src="{% static 'imagenes/instalaciones.jpeg' %}" class="card-img-top" alt="...">
+					<div class="card-body">
+
+						<p>Instalaciones modernas: Nuestra clínica está equipada con instalaciones modernas y tecnología
+							de vanguardia para garantizar un diagnóstico preciso y un tratamiento efectivo. Nos
+							mantenemos al tanto de los avances médicos para brindar el mejor cuidado posible.
+						</p>
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<h5>Comentarios...</h5>
+
+
+	<div class="flex-container">
+		<div class="row">
+
+			<div class="grid-comentarios">
+				<div class="grid-comentario-fondo">
+					<div>
+						Arturo Soto: "Perro Feliz se preocupa por sus clientes, ¡literalmente! Los descuentos por
+						cumpleaños y ser un cliente frecuente son fantásticos. Me alegra poder consentir a mis mascotas
+						sin tener que preocuparme por los altos costos. ¡Gracias por hacerlo más accesible!"
+
+					</div>
+				</div>
+				<div class="grid-comentario-fondo">
+					<div>
+						Rebeca Casillas: "Estoy extremadamente agradecida por el seguro médico que ofrece Perro Feliz.
+						Mi perro tuvo una emergencia y el equipo se ocupó de todo sin tener que preocuparme por los
+						costos. Eso me brindó una gran paz mental en un momento estresante. ¡Son increíbles!"
+
+					</div>
+				</div>
+
+				<div class="grid-comentario-fondo">
+					<div>
+						Juan Rodriguez: "Cuando mi perro se enfermó repentinamente fuera del horario de oficina, Perro
+						Feliz estuvo allí para ayudar. Su servicio de guardia es un salvavidas. Me dieron una atención
+						rápida y eficiente, y mi perro se recuperó completamente. Estoy eternamente agradecido".
+
+					</div>
+				</div>
+				<div class="grid-comentario-fondo">
+					<div>
+						Justina Ramos: “Hace una semana mi perrito Tyrion tuvo un pequeño accidente en la calle, lo
+						atropelló un auto (no tan grave) y acudí al Servicio de Emergencia de la veterinaria, lo
+						atendieron rápidamente, le hicieron radiografías pero solo era un golpe en la cadera.”
+
+					</div>
+				</div>
+				<div class="grid-comentario-fondo">
+					<div>
+						Carlos Alvarez: "Llegar a Perro Feliz es siempre una experiencia sin problemas gracias a su
+						amplio estacionamiento. No tengo que preocuparme por encontrar un lugar cercano. Es un detalle
+						que aprecio mucho, especialmente cuando tengo que llevar a mis mascotas. ¡Gracias por hacerlo
+						conveniente!"
+
+					</div>
+				</div>
+				<div class="grid-comentario-fondo">
+					<div>
+						Sergio Salva: “Reconozco que “Negrito” es un caniche muy ansioso y temeroso, por lo que siempre
+						me cuesta a la calle y mas aun a la veterinaria en la que asume cierto temor de experiencia,
+						pero la sala de espera de perro feliz logro tranquilizaro como si estuviera en casa, con un
+						ambiente muy confortable de aromas y musica, sigan asi PERROS FELICES, muy agradecido con su
+						servicio”...
+					</div>
+				</div>
+				<div class="grid-comentario-fondo">
+					<div>
+						Maximo Ortega: "El servicio de recordatorio de vacunación de Perro Feliz me ha salvado en más de
+						una ocasión. Con mi ajetreada vida, a veces se me olvidan las fechas importantes. Gracias a sus
+						alertas, siempre tengo a mis mascotas al día. ¡Son mi recordatorio personal y confiable!"
+
+					</div>
+				</div>
+				<div class="grid-comentario-fondo">
+					<div>
+						Jorge Tomasseti: "La sala de espera de Perro Feliz es increíblemente acogedora. Mi perro solía
+						estar ansioso antes de las visitas, pero con la música relajante y la aromaterapia, ahora está
+						tranquilo y cómodo. ¡Es un toque maravilloso que hace que nuestras visitas sean mucho más
+						agradables!".
+
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+</div>
+{% endblock %}

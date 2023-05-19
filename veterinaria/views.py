@@ -28,3 +28,15 @@ def staff(request):
 def servicios(request):
    
     return render(request, "servicios.html")
+
+def acicalamiento(request):
+   
+    return render(request, "acicalamiento.html")
+
+def otros(request):
+   
+    return render(request, "otros.html")
+
+def medico(request):
+   
+    return render(request, "medico.html")
