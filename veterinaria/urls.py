@@ -26,6 +26,7 @@ urlpatterns = [
     path('identidad/', views.identidad, name="identidad"),
     path('filosofia/', views.filosofia, name="filosofia"),
     path('foda/', views.foda, name="foda"),
+    path('servicios/', views.servicios, name="servicios"),
     path('indicadores/', views.indicadores, name="indicadores"),
     path('staff/', views.staff, name="staff"),
 ]  
@@ -36,6 +37,7 @@ urlpatterns = [
     distill_path('identidad.html', views.identidad, name="identidad"),
     distill_path('filosofia.html', views.filosofia, name="filosofia"),
     distill_path('foda.html', views.foda, name="foda"),
+    distill_path('servicios.html', views.servicios, name="servicios"),
     distill_path('indicadores.html', views.indicadores, name="indicadores"),
     distill_path('staff.html', views.staff, name="staff"),
     

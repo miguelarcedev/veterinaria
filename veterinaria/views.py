@@ -24,3 +24,7 @@ def indicadores(request):
 def staff(request):
    
     return render(request, "staff_grid.html")
+
+def servicios(request):
+   
+    return render(request, "servicios.html")
