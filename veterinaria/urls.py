@@ -20,7 +20,7 @@ from veterinaria import views
 from django_distill import distill_path
 
 
-""" urlpatterns = [
+urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index, name="index"),
     path('identidad/', views.identidad, name="identidad"),
@@ -32,9 +32,9 @@ from django_distill import distill_path
     path('acicalamiento/', views.acicalamiento, name="acicalamiento"),
     path('otros/', views.otros, name="otros"),
     path('medico/', views.medico, name="medico"),
-]   """
+]  
 
-urlpatterns = [
+""" urlpatterns = [
     path('admin/', admin.site.urls),
     distill_path('index.html', views.index, name="index"),
     distill_path('identidad.html', views.identidad, name="identidad"),
@@ -47,5 +47,5 @@ urlpatterns = [
     distill_path('otros.html', views.otros, name="otros"),
     distill_path('medico.html', views.medico, name="medico"),
     
-]
+] """
  
